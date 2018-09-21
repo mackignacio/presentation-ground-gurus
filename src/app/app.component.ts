@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angularpresentation';
+  angular6:any = "../assets/angular_astig.png";
+  mean:any = "../assets/mean_new.png";
+ 
+  title = 'Angular 6';
+
 }
