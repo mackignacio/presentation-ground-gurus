@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ng9.component.scss']
 })
 export class Ng9Component implements OnInit {
-
+  ng15:any = "../assets/ng/15.png";
+ 
+ 
   constructor() { }
 
   ngOnInit() {
