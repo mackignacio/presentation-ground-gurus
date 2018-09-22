@@ -1,3 +1,44 @@
-<p>
-  ng14 works!
-</p>
+<div class="container-fluid img-center">
+  <div class="text-center">
+    <h1>Continue...</h1>
+  </div>
+  <br>
+  <br>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <p>
+        Great!
+
+        Next, let's open up the /src/app/users/users.component.ts file and import our service: </p>
+    </div>
+    <div class="col-sm-6"><img class="nodefunctionality" [src]="ng24" alt="Node Image Functionality"></div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-sm-6">
+      <p>
+        To display the results, we're going to use an Observable, so we're importing it here, too. 
+
+In the class, add:
+        </p>
+    </div>
+    <div class="col-sm-6"><img class="nodefunctionality1" [src]="ng25" alt="Node Image Functionality"></div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-sm-6">
+      <p>
+        In the constructor, we're creating an instance of our service. Then, within the lifecycle hook ngOnInit() (this runs when the component loads), we're calling our getUsers() method and subscribing to it. Inside, we're binding our users$ object to the result returned by the API.
+
+        Next, open up /src/app/users/users.component.html:
+      <br><br>
+      Whenever you wish to iterate over an array or array of objects, you use the Angular directive *ngFor. We then use interpolation brackets to call upon the properties of the returned object to display them in the browser!
+
+      If you save this and refresh, you should now see a list of users and their information:
+    </p>
+    </div>
+    <div class="col-sm-6"><img class="nodefunctionality2" [src]="ng26" alt="Node Image Functionality"></div>
+  </div>
+
+</div>

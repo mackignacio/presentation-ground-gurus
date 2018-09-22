@@ -1,0 +1,42 @@
+.container-fluid {
+    padding-top: 3rem;
+    background-color: #444;
+    min-height: 100vh !important;
+    color:white;
+}
+
+.imgnode {
+    height: 18vh;
+}
+
+.nodefunctionality {
+    height: 11vh;
+    width: 70vh;
+    float: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.nodefunctionality1 {
+    height: 37vh;
+    float: center;
+    margin-left: 1rem;
+    width: 70vh;
+}
+.nodefunctionality2 {
+    height: 15vh;
+    float: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 70vh;
+}
+
+p {
+    margin-top: 1rem;
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
+.row {
+    margin-top: 2rem;
+    margin-left: 5rem;
+}

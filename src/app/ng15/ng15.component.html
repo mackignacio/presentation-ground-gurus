@@ -1,3 +1,42 @@
-<p>
-  ng15 works!
-</p>
+<div class="container-fluid img-center">
+  <div class="text-center">
+    <h1>Fetching More Data from the API</h1>
+  </div>
+  <br>
+  <br>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <p>
+        Let's revisit the service file /src/app/data.service.ts and add the following methods: </p>
+    </div>
+    <div class="col-sm-6"><img class="nodefunctionality" [src]="ng27" alt="Node Image Functionality"></div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-sm-6">
+      <p>
+        The getUser() method will provide us with a single user's information, which will accept a userId as a parameter.
+
+getPosts() will fetch some fictional posts for us to get more muscle memory with this process of communicating with services.
+
+Visit /src/app/details/details.component.ts:
+        </p>
+    </div>
+    <div class="col-sm-6"><img class="nodefunctionality1" [src]="ng28" alt="Node Image Functionality"></div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-sm-6">
+      <p>
+        This, as you see, is very similar to our users component. The only difference comes when we import ActivatedRoute and call it within the constructor.
+
+        The purpose of this code allows us to grab the id router parameter that we defined in the app's routing file earlier. This will give us access to the user ID and then pass it to the getUser() method that we defined.
+        
+        Open up the details.component.html and specify:
+    </p>
+    </div>
+    <div class="col-sm-6"><img class="nodefunctionality2" [src]="ng29" alt="Node Image Functionality"></div>
+  </div>
+
+</div>
