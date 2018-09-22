@@ -1,18 +1,41 @@
 <div class="container-fluid img-center">
-    <div class="text-center">
-      <h1>Angular 6 Routing Tutorial</h1>
-    </div>
-    <br>
-    <br>
-  
-    <div class="row">
-      <div class="col-sm-6">
-        <p>
-            Now, let's make our 2 icons work when they're clicked. In order to do that, we need to visit the /src/app/app-routing.module.ts file.
-
-            This is what it looks like: </p>
-      </div>
-      <div class="col-sm-6"><img class="nodefunctionality" [src]="ng17" alt="Node Image Functionality"></div>
-    </div>
-  
+  <div class="text-center">
+    <h1>Angular 6 Routing Tutorial</h1>
   </div>
+  <br>
+  <br>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <p>
+        Now, let's make our 2 icons work when they're clicked. In order to do that, we need to visit the
+        /src/app/app-routing.module.ts file.
+
+        This is what it looks like: </p>
+    </div>
+    <div class="col-sm-6"><img class="nodefunctionality" [src]="ng17" alt="Node Image Functionality"></div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-sm-6">
+      <p>
+        We need to import our components at the top, and add them to the Routes array shown on line 4 above.
+
+        To do that, add the following:
+        <br><br>
+        We've imported our 3 components, and then defined three objects in the Routes array.
+
+        The first object specifies that the UsersComponent will be the default component that loads on the root path.
+        We leave the path value empty forthis.
+
+        The next route is for a user details section. We've specified a wildcard named id. We'll use this to fetch that
+        value from the router in order to retrieve the correct user details.
+
+        Then another route for a component and path called posts.
+
+        Save this file, and the browser should now show:</p>
+    </div>
+    <div class="col-sm-6"><img class="nodefunctionality1" [src]="ng18" alt="Node Image Functionality"></div>
+  </div>
+
+</div>

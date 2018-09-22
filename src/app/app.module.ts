@@ -25,6 +25,11 @@ import { Ng9Component } from './ng9/ng9.component';
 import { Ng10Component } from './ng10/ng10.component';
 import { Ng11Component } from './ng11/ng11.component';
 import { Ng12Component } from './ng12/ng12.component';
+import { Ng13Component } from './ng13/ng13.component';
+import { Ng14Component } from './ng14/ng14.component';
+import { Ng15Component } from './ng15/ng15.component';
+import { Ng16Component } from './ng16/ng16.component';
+import { Ng17Component } from './ng17/ng17.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +55,12 @@ import { Ng12Component } from './ng12/ng12.component';
     Ng9Component,
     Ng10Component,
     Ng11Component,
-    Ng12Component
+    Ng12Component,
+    Ng13Component,
+    Ng14Component,
+    Ng15Component,
+    Ng16Component,
+    Ng17Component
 
   ],
   imports: [

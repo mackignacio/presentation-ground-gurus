@@ -23,6 +23,11 @@ import { Ng9Component } from "./ng9/ng9.component";
 import { Ng10Component } from "./ng10/ng10.component";
 import { Ng11Component } from "./ng11/ng11.component";
 import { Ng12Component } from "./ng12/ng12.component";
+import { Ng13Component } from "./ng13/ng13.component";
+import { Ng14Component } from "./ng14/ng14.component";
+import { Ng15Component } from "./ng15/ng15.component";
+import { Ng16Component } from "./ng16/ng16.component";
+import { Ng17Component } from "./ng17/ng17.component";
 
 const routes: Routes = [
   {
@@ -50,6 +55,11 @@ const routes: Routes = [
       { path: "19", component: Ng10Component },
       { path: "20", component: Ng11Component },
       { path: "21", component: Ng12Component },
+      { path: "22", component: Ng13Component },
+      { path: "23", component: Ng14Component },
+      { path: "24", component: Ng15Component },
+      { path: "25", component: Ng16Component },
+      { path: "26", component: Ng17Component },
 
 
       {
