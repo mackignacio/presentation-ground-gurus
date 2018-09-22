@@ -1,3 +1,56 @@
-<p>
-  ng7 works!
-</p>
+<div class="container-fluid img-center">
+  <div class="text-center">
+    <h1>Angular 6 Templating</h1>
+  </div>
+  <br>
+  <br>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <p>
+        Let's say for instance that we want our particular app to have a sidebar with some icons. This sidebar will
+        always be present in the app. The sidebar component is something we already generated with the CLI.
+
+        Open the src/app/app.component.html file. You will see all of the boilerplate HTML the CLI generated, and
+        consequently, what you see in the browser for the time being. Remove all of that and paste this (or better yet,
+        type it!): </p>
+    </div>
+    <div class="col-sm-6"><img class="nodefunctionality" [src]="ng12" alt="Node Image Functionality"></div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-sm-6">
+      <p>
+        We've wrapped everything in a container id. Then, you will notice a custom HTML element called app-sidebar.
+        What's that?
+
+        Well, when the CLI generated the sidebar component, it made the component's selector value app-sidebar. Don't
+        believe me? Check out /src/app/sidebar/sidebar.component.ts -- It's right there in the component decorator!
+        That's how you embed a component inside of another component. Now, anything defined in that component's HTML,
+        will be displayed where "app-sidebar" is defined.
+
+        Another very important element is the router-outlet. This was added by the CLI when we added the --routing flag
+        (it also generated a routing file in /src/app.
+
+        This element defines where any components defined by their routes will be displayed.
+
+        Let's head over to the /src/app/sidebar/sidebar.component.html file to define the sidebar templating: </p>
+    </div>
+    <div class="col-sm-6"><img class="nodefunctionality1" [src]="ng13" alt="Node Image Functionality"></div>
+  </div>
+  
+  <!-- <div class="row">
+    <div class="col-sm-6">
+      <p>
+        You will notice routerLink= here. Instead of href, we use routerLink to direct the user to different routes.
+        Right now, this will not work though, we'll get to that during the routing section.
+
+        We're also going to use Material Icons, so we need to import that first.
+
+        Save this file and open up /src/index.html and add the following 2 lines between the "head" tags:
+        We're importing material icons first, and then a Google web font called Montserrat. </p>
+    </div>
+    <div class="col-sm-6"><img class="nodefunctionality1" [src]="ng14" alt="Node Image Functionality"></div>
+  </div> -->
+
+</div>

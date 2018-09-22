@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ng7.component.scss']
 })
 export class Ng7Component implements OnInit {
-
+  ng12:any = "../assets/ng/12.png";
+  ng13:any = "../assets/ng/13.png";
+  ng14:any = "../assets/ng/14.png";
+ 
   constructor() { }
 
   ngOnInit() {

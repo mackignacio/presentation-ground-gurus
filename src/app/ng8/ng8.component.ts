@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ng8.component.scss']
 })
 export class Ng8Component implements OnInit {
-
+  ng14:any = "../assets/ng/14.png";
+ 
   constructor() { }
 
   ngOnInit() {
