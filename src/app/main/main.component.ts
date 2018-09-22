@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class MainComponent implements OnInit {
   current_slide = 1;
-  max = 28;
+  max = 31;
   constructor(private router: Router) { }
 
   ngOnInit() {

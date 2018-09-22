@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ng17.component.scss']
 })
 export class Ng17Component implements OnInit {
-
+  ng32:any = "../assets/ng/32.png";
+  ng33:any = "../assets/ng/33.png";
+ 
   constructor() { }
 
   ngOnInit() {

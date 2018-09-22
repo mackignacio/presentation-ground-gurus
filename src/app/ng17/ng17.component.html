@@ -1,3 +1,37 @@
-<p>
-  ng17 works!
-</p>
+<div class="container-fluid img-center">
+  <div class="text-center">
+    <h1>Angular 6 Class Binding</h1>
+  </div>
+  <br>
+  <br>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <p>
+        It would be nice to indicate which page a user is currently on in the left sidebar, perhaps by adding a class
+        to the icon that will make its' background blue? Sure!
+
+        Visit the /src/app/sidebar/sidebar.component.ts file and add the following: </p>
+    </div>
+    <div class="col-sm-6"><img class="nodefunctionality" [src]="ng32" alt="Node Image Functionality"></div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-sm-6">
+      <p>
+        We're importing the Router and NavigationEnd, then defining a string property currentUrl. Then, we create an
+        instance of the Router in order to subscribe to router.events. It will provide us with a string, which is the
+        current router path.
+
+        Open the sidebar.component.html file and update it to match:
+        <br> <br>
+        Class binding works by binding [class.csspropertyname] to a template expression. It will only add the
+        .activated CSS ruleset (defined in styles.scss) if our currentUrl is equal to either / or /posts.
+
+        Save it.
+      </p>
+    </div>
+    <div class="col-sm-6"><img class="nodefunctionality1" [src]="ng33" alt="Node Image Functionality"></div>
+  </div>
+
+</div>

@@ -30,6 +30,9 @@ import { Ng14Component } from './ng14/ng14.component';
 import { Ng15Component } from './ng15/ng15.component';
 import { Ng16Component } from './ng16/ng16.component';
 import { Ng17Component } from './ng17/ng17.component';
+import { Ng18Component } from './ng18/ng18.component';
+import { Ng19Component } from './ng19/ng19.component';
+import { Ng20Component } from './ng20/ng20.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +63,10 @@ import { Ng17Component } from './ng17/ng17.component';
     Ng14Component,
     Ng15Component,
     Ng16Component,
-    Ng17Component
+    Ng17Component,
+    Ng18Component,
+    Ng19Component,
+    Ng20Component
 
   ],
   imports: [

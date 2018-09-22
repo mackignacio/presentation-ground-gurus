@@ -1,0 +1,41 @@
+<div class="container-fluid img-center">
+  <div class="text-center">
+    <h1>Continue...</h1>
+  </div>
+  <br>
+  <br>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <p>
+        Then, in the component decorator, add the following animations property with the associated code:
+        <br>
+        Whew, a lot happening here!
+
+        <br>We start off by defining an animation by giving it a trigger with a name listStagger.
+        <br><br>Next, we use transition to define when the animations will take place, from one animation state to the
+        other. A
+        wildcard is used to say from any state to any state, in this case.
+        <br><br>Then, we use query to say that on :enter, we apply an initial style that's hidden and moved on the Y
+        axis by
+        -15px, and make a stagger animation for each sequential element.
+        <br><br>At the end, we define an optional :leave animation.
+        To make this work, visit the /src/app/users/users.component.html file and reference the animation trigger:
+      </p>
+    </div>
+    <div class="col-sm-6"><img class="nodefunctionality" [src]="ng37" alt="Node Image Functionality"></div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-sm-6">
+      <p>
+
+        Save it, and click on the users icon. You will notice that the list animates in!
+
+        There's a lot more to Angular animation, so this is just one potential use case.
+      </p>
+    </div>
+    <div class="col-sm-6"><img class="nodefunctionality1" [src]="ng38" alt="Node Image Functionality"></div>
+  </div>
+
+</div>
