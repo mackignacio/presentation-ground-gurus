@@ -7,9 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Ng3Component implements OnInit {
   ng6:any = "../assets/ng/6.png";
-  ng7:any = "../assets/ng/7.png";
- 
-  constructor() { }
+ constructor() { }
 
   ngOnInit() {
   }

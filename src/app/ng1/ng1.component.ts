@@ -9,7 +9,7 @@ export class Ng1Component implements OnInit {
   ng1:any = "../assets/ng/1.png";
   ng2:any = "../assets/ng/2.png";
   ng3:any = "../assets/ng/3.png";
-  ng4:any = "../assets/ng/4.png";
+  
   
  
   constructor() { }
